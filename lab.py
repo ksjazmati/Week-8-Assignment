@@ -1,12 +1,18 @@
-#1. Stores your first name as a variable. Use all lowercase letters when you declare it.
-first = "karam"
-#2. Stores your last name as a variable. Use all uppercase letters when you declare it.
-last = "JAZMATI"
-#3. Prints out, "Hello, <first name> <last name>" with the first name converted to uppercase letters and the last name converted to lowercase letters using string functions.
+
+
+#1.
+first = input("Enter your first name: ")
+#2.
+last = input("Enter your last name: ")
+#3.
 print("Hello", first.upper(),last.lower())
-#4. Prints out two newlines.
+#4.
 print("\n\n")
-#5. Creates a new variable that stores your first and last name together with a space between both parts.
+#5. 
 name = (first + " " + last)
-#6. Slices your last name from the variable you created in step 5 and prints it out. This must take place on one line
-print(name)
+#6. 
+print("Hello "+ name.removesuffix(last))
+#7
+print(name.replace(last, last+", Walsh College Student"))
+#8
+print('"Start by doing what\'s necessary; then do what\'s possible; and suddenly you are doing the impossible - Francis of Assisi"')
