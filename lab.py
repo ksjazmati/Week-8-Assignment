@@ -1,5 +1,4 @@
 import math
-from datetime import date
 from datetime import datetime
 #1.
 first = input("Enter your first name: ")
@@ -35,6 +34,7 @@ sq_root = math.sqrt(mu)
 print("The square root of", round(mu,2), "=", round(sq_root,2))
 #13
 month = datetime.now().strftime("%B")
-day = date.today().day
+day = datetime.now().day
 #14
 print(f"\n\t\tToday is day {day} of the month of {month}")
+
