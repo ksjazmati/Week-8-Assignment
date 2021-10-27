@@ -1,16 +1,16 @@
 import math
 from datetime import datetime
-#1.
+#1
 first = input("Enter your first name: ")
-#2.
+#2
 last = input("Enter your last name: ")
-#3.
+#3
 print("Hello", first.upper(),last.lower())
-#4.
+#4
 print("\n\n")
-#5. 
+#5 
 name = (first + " " + last)
-#6. 
+#6 
 print("Hello "+ name.removesuffix(last))
 #7
 print(name.replace(last, last+", Walsh College Student"))
@@ -37,4 +37,3 @@ month = datetime.now().strftime("%B")
 day = datetime.now().day
 #14
 print(f"\n\t\tToday is day {day} of the month of {month}")
-
